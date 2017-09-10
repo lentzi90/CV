@@ -1,7 +1,7 @@
 
 title: My CV
 url: 'https://lentzi90.github.io/CV'
-baseurl: 'CV' #change it according to your repository name
+baseurl: 'https://lentzi90.github.io/CV' #change it according to your repository name
 
 
 # Enable one of these styles by removing #
