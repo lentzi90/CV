@@ -5,15 +5,13 @@
 \documentclass[english,a4paper]{europasscv}
 
 \ecvname{Lennart Jern}
-\ecvaddress{Strandgatan 37B, 91136 Vännäsby Sweden}
-% This should be changed to \ecvmobile{} in newer versions
-%\ecvmobile{+358442982638}
-\ecvtelephone[+358442982638]{}
+\ecvaddress{Germundbysvängen 26, 10520 Tenala Finland}
+
+\ecvmobile{+358442982638}
 \ecvemail{lennart.jern@gmail.com}
 \ecvhomepage{https://lentzi90.github.io}
 %\ecvhomepage{https://jern.me}
-\ecvim{Skype}{lennart.jern}
-% \ecvim{Google Talk}{bsmith}
+%\ecvim{Skype}{lennart.jern}
 
 \ecvdateofbirth{10 April 1990}
 \ecvnationality{Finnish}
@@ -30,7 +28,25 @@
 
   \ecvsection{Work experience}
 
-  \ecvtitle{June 2017 --}{Teacher Assistant}
+  \ecvtitle{January 2018 --}{Software Engineer}
+  \ecvitem{}{Elastisys}
+  \ecvitem{}{Kubernetes administration, containerization and migrations to Kubernetes as well as configuration of CI/CD pipelines for building in, and deploying on Kubernetes.
+  	Development and architecture of Elastisys Compliant Kubernetes.
+  	Workshops and training in Kubernetes administration and development.
+  	Development in Go, Python and Java.
+  	
+  	Contributions to open source projects (among others):
+  	\begin{ecvitemize}
+  		\item Cert-manager (\url{https://github.com/jetstack/cert-manager})
+  		\item Kubespray (\url{https://github.com/kubernetes-sigs/kubespray})
+  		\item Kubernetes website (\url{https://github.com/kubernetes/website})
+  		\item Prometheus-operator
+  		
+  		(\url{https://github.com/prometheus-operator/prometheus-operator})
+  	\end{ecvitemize}
+  }
+
+  \ecvtitle{June 2017 -- December 2017}{Teacher Assistant}
   \ecvitem{}{Umeå University}
   \ecvitem{}{Individual assistance, laborations, correcting assignments, etc.}
 
@@ -62,8 +78,22 @@
   \ecvtitle{Summers 2012 and 2013}{Construction work}
   \ecvitem{}{Lärkkulla Folk Academy}
 
+  \pagebreak
 
   \ecvsection{Education and training}
+  
+  \ecvtitlelevel{}{Courses and certifications}{}
+  \ecvitem{2019}{Kubernetes Administrator - Certification ID: CKA-1900-001574-0100}
+  \ecvitem{2017 -- 2018}{Master's level courses at Umeå University
+  	\begin{ecvitemize}
+  		\item Artificial Intelligence - Methods and Applications
+  		\item Parallel programming for multicore-based systems
+  		\item Distributed Systems
+  		\item Operating Systems
+  		\item Database System Principles
+  		\item Efficient Algorithms
+  	\end{ecvitemize}
+  }
 
   \ecvtitlelevel{2011--2016}{Master of Science in Mathematics}{ISCED 7}
   \ecvitem{}{Åbo Akademi University, Åbo Finland}
@@ -96,7 +126,12 @@
 
   \ecvblueitem{Computer skills}{
   \begin{ecvitemize}
-    \item Programming in C, Python, Java and Matlab/Octave
+  	\item Kubernetes CI/CD using ArgoCD, Kustomize and Helm
+  	\item Infrastructure as code: Terraform
+  	\item Clouds: Google Cloud Platform and AWS
+  	\item Monitoring using Prometheus, Grafana and Alertmanager
+    \item Programming in C, Python, Java, Go and Matlab/Octave
+    \item Configuration management: Ansible
     \item Webdesign using HTML, CSS, JavaScript, PHP, Bootstrap, Jekyll and Django
     \item Working in a Linux environment. Especially in Ubuntu and Fedora.
     \item Scripting in bash
