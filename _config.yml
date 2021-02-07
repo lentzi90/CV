@@ -16,7 +16,7 @@ baseurl: '/CV' #change it according to your repository name
 
 #Profile information
 name: Lennart Jern
-tagline: Computer Science student
+tagline: Software Engineer, Master of Mathematics, Teacher, Nerd
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
